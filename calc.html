@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>AutoTech — Калькулятор</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AutoTech</h1>
+    <nav>
+        <a href="index.html">О компании</a>
+        <a href="models.html">Модели</a>
+        <a href="calc.html">Калькулятор</a>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="card">
+        <h2>Калькулятор стоимости</h2>
+
+        <label>Цена автомобиля (₽)</label>
+        <input type="number" id="price">
+
+        <label>Скидка (%)</label>
+        <input type="number" id="discount">
+
+        <button onclick="calculate()">Рассчитать</button>
+
+        <p id="result"></p>
+    </div>
+</div>
+
+<footer>
+    <p>© AutoTech, 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
